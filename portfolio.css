@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -24,4 +25,10 @@ img{
     padding: 10px 20px;
     border-radius: 5%;
     font-weight: 1000;
+}
+#top{
+    background-image: url(top-banner.png);
+    background-repeat: no-repeat;
+    
+
 }
