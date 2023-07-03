@@ -15,6 +15,7 @@ section{
 .half-width{
     padding-left: 5%;
     width: 50%;
+    
 }
 img{
     width: 80%;
@@ -43,7 +44,7 @@ h2{
     font-size: 200%;
 }
 
-#color{
+.color{
     color: red;
 }
 #middle{
@@ -52,9 +53,26 @@ h2{
     background-position:right ;
     
 }
+.shadow{
+    box-shadow: 10px 10px 5px grey;
+    padding: 2%;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-left: 10px solid;
+    border-radius: 10px;
+    border-image: linear-gradient(red , yellow);
+    border-image-slice: 1;
+}
 .exp-area{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#footer{
+    text-align: center;
+    background-image: linear-gradient(tomato , salmon);
+    background-size: 150%;
+    margin: 0;
     padding: 50px;
-    background-color: aliceblue;
-    border-color: blue;
-    margin: 10px;
 }
